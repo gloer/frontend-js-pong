@@ -1,0 +1,28 @@
+:root {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: darkorange;
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border: 5px solid whitesmoke;
+}
+
+header {
+    background-color: orange;
+    padding: 10px;
+    border-bottom: 5px solid whitesmoke;
+}
+
+#spillet {
+    background-color: green;
+}

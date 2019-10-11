@@ -8,7 +8,7 @@
 		"prefix": "cv",
 		"body": [
 			"const ${1:id} = document.querySelector(\"#${1:id}\");",			
-			"$0",			
+			"$0"			
 		],
 		"description": "Snarvei til document.querySelector med id"
 	}
